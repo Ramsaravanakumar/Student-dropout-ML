@@ -6,8 +6,17 @@
 **The main goal of this project is to predict student dropout rates**. By analyzing student performance, the model aims to identify at-risk students and provide actionable insights for educators.
 
 # Project Overview
+This project presents a Machine Learning-based system to predict student dropout risk, helping institutions take proactive steps to improve academic outcomes. It processes educational data to identify patterns that correlate with student success or dropout likelihood, making it a valuable decision-support tool for teachers and administrators.
 
-This project aims to develop a machine learning model that predicts the likelihood of a student dropping out, based on behavioral and demographic features.The goal is to assist educators in identifying at-risk students early, enabling timely intervention and improved academic outcomes.
+The solution integrates:
+
+➤ Smart classification models (Decision Tree, Random Forest) with high accuracy (≈85%)
+
+➤ Clean, efficient data preprocessing and feature engineering
+
+➤ Evaluation using cross-validation, confusion matrix, and classification reports
+
+➤ Optional deployment-ready Flask framework for integration into real-time applications
 
 ## Key Highlights
 
