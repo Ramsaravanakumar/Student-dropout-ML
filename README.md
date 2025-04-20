@@ -71,4 +71,4 @@ B.Tech in Artificial Intelligence & Data Science
 Passionate about applying ML to solve real-world problems  
 [www.linkedin.com/in/
 ramsaravanakumar
-]| [ramsaravanakumar/kaggle]
+]| [https://www.kaggle.com/code/ramsaravanakumar/student-dropout-prediction-using-ml-ramkumar-s]
