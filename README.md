@@ -1,9 +1,13 @@
 
 # Student Dropout Prediction using Machine Learning
 
+## Project Goal
+
+**The main goal of this project is to predict student dropout rates**. By analyzing student performance, the model aims to identify at-risk students and provide actionable insights for educators.
+
 # Project Overview
 
-This project aims to develop a machine learning model that predicts the likelihood of a student dropping out, based on behavioral and demographic features.**The goal is to assist educators in identifying at-risk students early, enabling timely intervention and improved academic outcomes**.
+This project aims to develop a machine learning model that predicts the likelihood of a student dropping out, based on behavioral and demographic features.The goal is to assist educators in identifying at-risk students early, enabling timely intervention and improved academic outcomes.
 
 ## Key Highlights
 
