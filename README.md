@@ -3,8 +3,7 @@
 
 # Project Overview
 
-➤This project aims to develop a machine learning model that predicts the likelihood of a student dropping out, based on behavioral and demographic features.
-➤The goal is to assist educators in identifying at-risk students early, enabling timely intervention and improved academic outcomes.
+This project aims to develop a machine learning model that predicts the likelihood of a student dropping out, based on behavioral and demographic features.The goal is to assist educators in identifying at-risk students early, enabling timely intervention and improved academic outcomes.
 
 ## Key Highlights
 
@@ -70,4 +69,6 @@
 **[Ram kumar S]**  
 B.Tech in Artificial Intelligence & Data Science  
 Passionate about applying ML to solve real-world problems  
-[www.linkedin.com/in/ramsaravanakumar]| [ramsaravanakumar/kaggle]
+[www.linkedin.com/in/
+ramsaravanakumar
+]| [ramsaravanakumar/kaggle]
