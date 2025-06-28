@@ -1,78 +1,87 @@
-🌱 Houseplant Store – A Modern Shopping Cart Built with React & Redux
-Project Goal
-The aim of this project is to build a responsive and interactive e-commerce platform for houseplants. With a focus on user experience and frontend architecture, this project demonstrates a functional shopping cart system using React, Redux, and React Router.
+The main goal of this project is to predict student dropout rates. By analyzing student performance, the model aims to identify at-risk students and provide actionable insights for educators.
 
-🧾 Project Overview
-This web application serves as a clean, intuitive online store where users can explore plant categories, add/remove items from the cart, adjust quantities, and navigate smoothly across pages. It simulates a modern front-end system you'd see in scalable e-commerce platforms, making it a strong portfolio project for frontend developers.
+Project Overview
+This project presents a Machine Learning-based system to predict student dropout risk, helping institutions take proactive steps to improve academic outcomes. It processes educational data to identify patterns that correlate with student success or dropout likelihood, making it a valuable decision-support tool for teachers and administrators.
 
 The solution integrates:
 
-➤ Component-based UI using React
-➤ Centralized state management using Redux
-➤ Client-side routing with React Router
-➤ Reusable and modular code architecture
-➤ Fully responsive and clean UI with CSS/JSX
+➤ Smart classification models (Decision Tree, Random Forest) with high accuracy (≈85%)
 
-✨ Key Highlights
-🛍️ Dynamic cart functionality using Redux
+➤ Clean, efficient data preprocessing and feature engineering
 
-🧩 Component-based reusable layout
+➤ Evaluation using cross-validation, confusion matrix, and classification reports
 
-🧭 Seamless navigation with React Router
+➤ Optional deployment-ready Flask framework for integration into real-time applications
 
-🎨 Mobile-first responsive UI
+Key Highlights
+Developed using Random Forest and Decision Tree Classifiers
+Achieved 85.4% accuracy on the test set
+Implemented cross-validation for model reliability
+Focused on practical real-world impact for educators
+Created using Python, Pandas, Scikit-learn, Seaborn, and Matplotlib
+Deployed a simple Flask application for real-time predictions
+Dataset
+Source: Kaggle Student Data
+Contains academic, behavioral, and engagement metrics
+Target variable: Class (L = Low risk, M = Medium risk, H = High risk)
+Features Used
+Demographics (Gender, Nationality, Place of Birth)
+Academic Info (Grade, Section, Semester)
+Behavioral Patterns (Raised Hands, Visited Resources, Announcements Viewed, Discussion Participation)
+Parent Survey Responses
+Student Absence Days
+Machine Learning Pipeline
+Data Cleaning and preprocessing
+EDA to visualize and understand feature impact
+Feature encoding and normalization
+Training with Decision Tree and Random Forest
+Evaluation using confusion matrix, classification report, and cross-validation
+Model Deployment with Flask
+Model Performance
+Accuracy: 85.4%
+Cross-Validation Score (Mean): 79.1%
+F1-Score: High performance for both medium and high-risk students
+Confusion Matrix: Strong prediction of high-risk students
+Real-World Use Case
+“With over 100+ students in a class, it becomes difficult for teachers to track individual performance manually. This model acts as a smart assistant, flagging at-risk students based on behavior and engagement — ultimately helping reduce dropout rates.”
 
-🔄 Real-time cart updates and price calculation
+Tools & Technologies
+Python (Jupyter Notebook)
+Pandas, NumPy
+Scikit-learn
+Matplotlib, Seaborn
+Flask (for web app)
+GitHub + Kaggle (for collaboration & sharing)
+Files in this Repository
+Student_Dropout_Prediction.ipynb: Full ML project notebook
+README.md: Project documentation
+(Optional) app.py: Flask app for deployment
+(Optional) templates/index.html: Web interface
+Author
+[Ram kumar S]
+B.Tech in Artificial Intelligence & Data Science
+Passionate about applying ML to solve real-world problems
+[www.linkedin.com/in/ ramsaravanakumar ]| [https://www.kaggle.com/code/ramsaravanakumar/student-dropout-prediction-using-ml-ramkumar-s]
 
-🗂️ Organized folder structure for scalable development
+About
+Machine Learning project for predicting student dropout
 
-📦 Easy-to-deploy, beginner-friendly architecture
-
-🛒 Features
-Homepage with call-to-action and company intro
-
-Category-wise plant product listing
-
-"Add to Cart" and quantity update support
-
-Real-time total calculation and checkout page
-
-Cart count in header (global Redux state)
-
-Simple, intuitive checkout and continue shopping flow
-
-🛠️ Tech Stack
-Frontend: React.js (Hooks), JSX
-
-State Management: Redux Toolkit
-
-Routing: React Router v6
-
-Styling: CSS (or CSS Modules)
-
-Tooling: Node.js, npm, VS Code
-
-Version Control: Git + GitHub
-
-🔮 Future Enhancements
-🔐 User login & authentication
-
-🧾 Persistent cart with local storage or backend
-
-🌍 Deployment on Vercel / Netlify
-
-💳 Payment gateway integration
-
-🔎 Product search and filtering features
-
-👨‍💻 Author
-Ram Kumar S
-🎓 B.Tech in Artificial Intelligence & Data Science
-💡 Passionate about web development, AI, and building full-stack projects
-
-🌐 LinkedIn
-
-🛠️ GitHub
-
-📊 Kaggle
-
+Resources
+ Readme
+ Activity
+Stars
+ 0 stars
+Watchers
+ 1 watching
+Forks
+ 0 forks
+Releases
+No releases published
+Create a new release
+Packages
+No packages published
+Publish your first package
+Languages
+Jupyter Notebook
+100.0%
+Footer
