@@ -109,8 +109,8 @@ This project delivers a machine learning-based system designed to assess and cat
 B.Tech - Artificial Intelligence & Data Science  
 📌 Passionate about solving real-world problems using ML  
 
-🔗 [LinkedIn](https://www.linkedin.com/in/ramsaravanakumar)  
-🔗 [Kaggle Notebook](https://www.kaggle.com/code/ramsaravanakumar/student-dropout-prediction-using-ml-ramkumar-s)
+🔗 [LinkedIn]  (https://www.linkedin.com/in/ramsaravanakumar)  
+🔗 [Kaggle Notebook] (https://www.kaggle.com/code/ramsaravanakumar/student-dropout-prediction-using-ml-ramkumar-s)
 
 ---
 
