@@ -1,87 +1,78 @@
+🌱 Houseplant Store – A Modern Shopping Cart Built with React & Redux
+Project Goal
+The aim of this project is to build a responsive and interactive e-commerce platform for houseplants. With a focus on user experience and frontend architecture, this project demonstrates a functional shopping cart system using React, Redux, and React Router.
 
-# Student Dropout Prediction using Machine Learning
-
-## Project Goal
-
-**The main goal of this project is to predict student dropout rates**. By analyzing student performance, the model aims to identify at-risk students and provide actionable insights for educators.
-
-# Project Overview
-This project presents a Machine Learning-based system to predict student dropout risk, helping institutions take proactive steps to improve academic outcomes. It processes educational data to identify patterns that correlate with student success or dropout likelihood, making it a valuable decision-support tool for teachers and administrators.
+🧾 Project Overview
+This web application serves as a clean, intuitive online store where users can explore plant categories, add/remove items from the cart, adjust quantities, and navigate smoothly across pages. It simulates a modern front-end system you'd see in scalable e-commerce platforms, making it a strong portfolio project for frontend developers.
 
 The solution integrates:
 
-➤ Smart classification models (Decision Tree, Random Forest) with high accuracy (≈85%)
+➤ Component-based UI using React
+➤ Centralized state management using Redux
+➤ Client-side routing with React Router
+➤ Reusable and modular code architecture
+➤ Fully responsive and clean UI with CSS/JSX
 
-➤ Clean, efficient data preprocessing and feature engineering
+✨ Key Highlights
+🛍️ Dynamic cart functionality using Redux
 
-➤ Evaluation using cross-validation, confusion matrix, and classification reports
+🧩 Component-based reusable layout
 
-➤ Optional deployment-ready Flask framework for integration into real-time applications
+🧭 Seamless navigation with React Router
 
-## Key Highlights
+🎨 Mobile-first responsive UI
 
-- Developed using **Random Forest** and **Decision Tree Classifiers**
-- Achieved **85.4% accuracy** on the test set
-- Implemented **cross-validation** for model reliability
-- Focused on practical **real-world impact for educators**
-- Created using **Python**, **Pandas**, **Scikit-learn**, **Seaborn**, and **Matplotlib**
-- Deployed a simple **Flask** application for real-time predictions
+🔄 Real-time cart updates and price calculation
 
-## Dataset
+🗂️ Organized folder structure for scalable development
 
-- Source: [Kaggle Student Data](https://www.kaggle.com/datasets)
-- Contains academic, behavioral, and engagement metrics
-- Target variable: **Class** (L = Low risk, M = Medium risk, H = High risk)
+📦 Easy-to-deploy, beginner-friendly architecture
 
-## Features Used
+🛒 Features
+Homepage with call-to-action and company intro
 
-- Demographics (Gender, Nationality, Place of Birth)
-- Academic Info (Grade, Section, Semester)
-- Behavioral Patterns (Raised Hands, Visited Resources, Announcements Viewed, Discussion Participation)
-- Parent Survey Responses
-- Student Absence Days
+Category-wise plant product listing
 
-## Machine Learning Pipeline
+"Add to Cart" and quantity update support
 
-1. **Data Cleaning** and preprocessing
-2. **EDA** to visualize and understand feature impact
-3. Feature encoding and normalization
-4. Training with **Decision Tree** and **Random Forest**
-5. Evaluation using **confusion matrix**, **classification report**, and **cross-validation**
-6. Model Deployment with **Flask**
+Real-time total calculation and checkout page
 
-## Model Performance
+Cart count in header (global Redux state)
 
-- **Accuracy**: 85.4%
-- **Cross-Validation Score (Mean)**: 79.1%
-- **F1-Score**: High performance for both medium and high-risk students
-- **Confusion Matrix**: Strong prediction of high-risk students
+Simple, intuitive checkout and continue shopping flow
 
-## Real-World Use Case
+🛠️ Tech Stack
+Frontend: React.js (Hooks), JSX
 
-> “With over 100+ students in a class, it becomes difficult for teachers to track individual performance manually. This model acts as a **smart assistant**, flagging at-risk students based on behavior and engagement — ultimately helping reduce dropout rates.”
+State Management: Redux Toolkit
 
-## Tools & Technologies
+Routing: React Router v6
 
-- Python (Jupyter Notebook)
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
-- Flask (for web app)
-- GitHub + Kaggle (for collaboration & sharing)
+Styling: CSS (or CSS Modules)
 
-## Files in this Repository
+Tooling: Node.js, npm, VS Code
 
-- `Student_Dropout_Prediction.ipynb`: Full ML project notebook
-- `README.md`: Project documentation
-- (Optional) `app.py`: Flask app for deployment
-- (Optional) `templates/index.html`: Web interface
+Version Control: Git + GitHub
 
-## Author
+🔮 Future Enhancements
+🔐 User login & authentication
 
-**[Ram kumar S]**  
-B.Tech in Artificial Intelligence & Data Science  
-Passionate about applying ML to solve real-world problems  
-[www.linkedin.com/in/
-ramsaravanakumar
-]| [https://www.kaggle.com/code/ramsaravanakumar/student-dropout-prediction-using-ml-ramkumar-s]
+🧾 Persistent cart with local storage or backend
+
+🌍 Deployment on Vercel / Netlify
+
+💳 Payment gateway integration
+
+🔎 Product search and filtering features
+
+👨‍💻 Author
+Ram Kumar S
+🎓 B.Tech in Artificial Intelligence & Data Science
+💡 Passionate about web development, AI, and building full-stack projects
+
+🌐 LinkedIn
+
+🛠️ GitHub
+
+📊 Kaggle
+
